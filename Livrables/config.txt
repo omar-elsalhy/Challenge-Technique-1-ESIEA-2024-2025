@@ -1,0 +1,14 @@
+NbNoeuds NbArcs
+4 2
+
+Liste des noeuds
+ID Population Exposés Infectés Rétablis Morts Vaccination Exposition EXinfectiosité Beta Gamma Mortalité TauxConfinement CentreVaccination JourDéclenchement
+0 1000 50 25 0 0 0.01 0.5 0.5 0.01 0.01 0.01 0.01 1 10
+1 200000 80 100000 0 0 0.01 0.5 0.5 0.5 0.05 0.9 0.01 0 800
+2 800 100 10 1 0 0.01 0.5 0.5 0.01 0.01 0.01 0.01 0 800
+3 1200 150 0 0 0 0.01 0.5 0.5 0.01 0.01 0.01 0.01 0 800
+
+Liste des arcs
+IDorigine IDcible Ts Ti Tr Te
+2 1 0.03 0.01 0.01 0.01
+1 2 0.03 0.04 0.01 0.01
