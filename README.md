@@ -10,9 +10,9 @@ Pour plus d'informations, veuillez consulter ce lien par exemple: https://fr.wik
 
 Installer Gnuplot à l'aide de la commande suivante afin de visualiser les courbes en sortie du programme.
 
-``bash
+```bash
 sudo apt-get install gnuplot
-``
+```
 
 ## Entrées de l'utilisateur
 
@@ -138,6 +138,17 @@ Vous pouvez vérifier avec la commande suivante:
 valgrind --leak-check=full --track-origins=yes ./prog.exe config.txt 50 1
 ```
 
+## Captures d'écran
+
+Le programme affiche la courbe d'évolution d'un des noeuds en temps réel.
+De plus, à la fin du programme, on peut voir les courbes de tous les noeuds.
+Voici les courbes d'évolution des noeuds avec les paramètres initiaux de notre exemple:
+
+- Noeud 1 (suivi en temps réel):
+![noeud 1.png](Captures%20d%27%C3%A9cran/noeud%201.png)
+
+- Tous les noeuds (affichés à la fin du programme):
+![tous les noeuds.png](Captures%20d%27%C3%A9cran/tous%20les%20noeuds.png)
 
 ## Auteurs
 Ce projet a été mené en équipe par:
